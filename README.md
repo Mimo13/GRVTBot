@@ -83,23 +83,3 @@ with a key on disk. See [SECURITY.md](SECURITY.md).
 In production. The hosted instance at
 [grvtbot.com](https://grvtbot.com) has been running real trades for
 months. Issues + PRs welcome.
-
-## Contributing
-
-Run `npm test` from the root — currently 208 tests across bot,
-dashboard, and notifier packages. PRs that add features should include
-tests; PRs that fix bugs should include a regression test.
-
-## License
-
-[AGPL-3.0-or-later](LICENSE). In short: you're free to use, modify, and
-self-host this code. **If you modify it AND run it as a network
-service, you must publish your modifications under the same license.**
-This is to keep forks and competing hosted instances in the open
-source.
-
-## Security
-
-Vulnerability reports: **do not** open a public GitHub issue. See
-[SECURITY.md](SECURITY.md) for the reporting process and full threat
-model.
